@@ -25,12 +25,12 @@ import os
 
 # %%
 def _tag_text_to_CDATA(element: ET.Element) -> None:
-    """Convert tag element text to CDATA xml type, and also add multiline text
+    """Convert tag element text to CDATA xml type
     ----------
     Parameters:
     element: tag element
     ----------
-    Returns: it is void fucntion
+    Returns: it is void function
     """
 
     def _escape_cdata(text):
